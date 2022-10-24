@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Profile</title>
+    <style>
+        .container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #media img {
+            width: 200px;
+            border: 1px solid royalblue;
+            border-radius: 5px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .files {
+            width: 15px;
+        }
+
+        nav {
+            text-align: center;
+            padding: 25px;
+        }
+
+        iframe {
+            border-radius: 10px;
+        }
+
+        fieldset,
+        nav {
+            background-color: aliceblue;
+            border: solid 2px;
+        }
+
+        .icon {
+            width: 30px;
+        }
+
+        .links {
+            background-color: lightblue;
+            padding: 3px;
+            margin: 5px;
+            border-radius: 3px;
+        }
+
+        a {
+            color: cornflowerblue;
+        }
+    </style>
+</head>
+
+<body style="padding: 20px;">
+    <fieldset style="width: fit-content;align-self: center;">
+        <legend>14F - Directory Profile Page</legend>
+        <div class="container">
+
+            <head id="s">
+                <img src="asset/img/profile.jpeg" alt="profile.jpeg" height="300px" style="border: solid white;">
+                <div style="flex-grow: 1;margin-left: 20px;margin-right: 20px;">
+                    <h1>PROFILE ELZAN AYU FAUZIAH</h1>
+                    Nama : Elzan Ayu Fauziah <br>
+                    Alamat : Jl veteran1 kp Legok nyenang Pondok Pesantren Tarbiyatul Huda<br>
+                    Prodi : Sistem Informasi <br>
+                    Rombel : SI03<br>
+                    Email: <a href="#">elzananita@gmail.com</a><br>
+                    No: 0895337257070
+                </div>
+            </head>
+            <nav style="height: fit-content;">
+                My Social Media
+                <div class="links">
+                    <a href="#">
+                        <img class="icon" src="asset/img/youtube_icon.png" alt="">
+                        <br>
+                        YT
+                    </a>
+                </div>
+                <div class="links">
+                    <a href="#">
+                        <img class="icon" src="asset/img/gmail_icon.png" alt="">
+                        <br>
+                        Email
+                    </a>
+                </div>
+                <div class="links">
+                    <a href="#">
+                        <img class="icon" src="asset/img/Instagram_icon.png" alt="">
+                        <br>
+                        Insta
+                    </a>
+                </div>
+            </nav>
+        </div>
+
+        <main>
+            <section>
+                <p>
+                    Assalamu'alaikum Warrahmatullahi Wabarakatuh. Perkenalkan nama saya Elzan Ayu Fauziah.
+                </p>
+                <p>
+                    Nice to meet you!
+                </p>
+            </section>
+        </main>
+
+        <footer>
+
+
+            <object class="container" data="" type="">
+                <fieldset>
+                    <legend>Video</legend>
+
+                    <iframe width="300px" src="https://www.youtube.com/embed/HN7TWtE6f0k"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </fieldset>
+
+                <fieldset id="media">
+                    <legend>Galery</legend>
+                    <img src="asset/img/photo1.jpg" alt="photo1.jpg">
+                    <br>
+                    <img src="asset/img/photo1.jpg" alt="photo2.jpg">
+                </fieldset>
+                <fieldset>
+                    <legend>Attachment</legend>
+                    <ul>
+                        <li>
+                            <img class="files" src="asset/img/pdf_icon.png" alt="">
+                            <a href="asset/docs/04_multimedia_html5.pdf" download>Download Tugas</a>
+                        </li>
+                        <li>
+                            <img class="files" src="asset/img/jpeg_icon.png" alt="">
+                            <a href="asset/img/Screenshot (55).png" download>Screenshot</a>
+                        </li>
+                        <li>
+                            <img class="files" src="asset/img/pdf_icon.png" alt="">
+                            <a href="asset/docs/04_multimedia_html5.pdf" download>Tugas</a>
+                        </li>
+                        <li>
+                            <img class="files" src="asset/img/pdf_icon.png" alt="">
+                            <a href="asset/img/sertifikat.jpeg" download>Sertifikat</a>
+                        </li>
+                    </ul>
+                </fieldset>
+            </object>
+        </footer>
+    </fieldset>
+</body>
+
+</html>
