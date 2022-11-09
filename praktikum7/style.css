@@ -1,0 +1,15 @@
+div {
+    width: 250px;
+    height: 700px;
+    float: left;
+    margin: 0 16px;
+    border: 1px solid #000
+}
+.khaki {
+    background-color: khaki;}
+.peach {
+    background-color: peachpuff;}
+.grey {
+    background-color: grey;}
+.coral {
+    background-color: lightcoral;}
